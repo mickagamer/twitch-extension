@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
 
-  "name": "Micka Gamer ™ | Twitch Status",
-  "description": "Cette extension vous permet de savoir si je suis en stream ou non !",
-  "version": "0.2",
-  "author": "MickaGamer",
+  "name": "Micka Gamer ™ | Twitch Status & Youtube Channel",
+  "description": "Avec cette extention, vous aurez la possibilitée de savoir si je suis en stream ou non !",
+  "version": "0.5",
+  "author": "Micka Gamer ™",
   "background": {
       "scripts": ["jquery.min.js", "background.js"]
     },

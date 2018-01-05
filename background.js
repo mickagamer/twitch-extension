@@ -1,18 +1,15 @@
 
-function twitchCheck(){$.getJSON("https://api.twitch.tv/kraken/streams/mickagamer_?client_id=YOUR API KEY TWITCH", function(channel) {
+function twitchCheck(){$.getJSON("https://api.twitch.tv/kraken/streams/mickagamer_?client_id=API_KEY", function(channel) {
  
   if (channel["stream"] == null) {
-    console.log("Stream is offline");
-
-    linkUrl = "https://www.youtube.com/user/micka69250";
+  
+    linkUrl = "https://www.youtube.com/user/micka69250?sub_confirmation=1&?igr=mickagamer";
     chrome.browserAction.setIcon({path: "img/offline.png"});
-    console.log("set icon offline");
-
- 
+  
   } else {
       linkUrl = "http://twitch.tv/mickagamer_/";
       chrome.browserAction.setIcon({path: "img/online.png"});
-      console.log("set icon online");
+ 
     }
 })};
 var linkUrl = "";
